@@ -9,7 +9,7 @@ if s:ayucolor == 'light'
   " Base colors.
   let s:c.base0 = { 'gui': '#EAEAEA', 'cterm': 0 }
   let s:c.base1 = { 'gui': '#FAFAFA', 'cterm': 8 }
-  let s:c.base2 = { 'gui': '#FAFAFA', 'cterm': 10 }
+  let s:c.base2 = { 'gui': '#EAEBED', 'cterm': 10 }
   let s:c.base3 = { 'gui': '#FAFAFA', 'cterm': 12 }
   let s:c.base4 = { 'gui': '#313d46', 'cterm': 11 }
   let s:c.base5 = { 'gui': '#EF7E46', 'cterm': 14 }
@@ -29,11 +29,11 @@ if s:ayucolor == 'light'
 else
   " Base colors.
   let s:c.base0 = { 'gui': '#151a1e', 'cterm': 0 }
-  let s:c.base1 = { 'gui': '#1c2328', 'cterm': 8 }
+  let s:c.base1 = { 'gui': '#0f1419', 'cterm': 8 }
   let s:c.base2 = { 'gui': '#232b32', 'cterm': 10 }
-  let s:c.base3 = { 'gui': '#2a343c', 'cterm': 12 }
+  let s:c.base3 = { 'gui': '#0f1419', 'cterm': 12 }
   let s:c.base4 = { 'gui': '#313d46', 'cterm': 11 }
-  let s:c.base5 = { 'gui': '#384550', 'cterm': 14 }
+  let s:c.base5 = { 'gui': '#8bacc7', 'cterm': 14 }
   let s:c.base6 = { 'gui': '#3f4e5a', 'cterm': 7 }
   let s:c.base7 = { 'gui': '#465764', 'cterm': 15 }
 
