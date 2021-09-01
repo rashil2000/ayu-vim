@@ -8,7 +8,7 @@ let s:ayucolor = get(g:, 'ayucolor', 'dark')
 if s:ayucolor == 'light'
   " Base colors.
   let s:c.base0 = { 'gui': '#EAEAEA', 'cterm': 0 }
-  let s:c.base1 = { 'gui': '#FAFAFA', 'cterm': 8 }
+  let s:c.base1 = { 'gui': 'none',    'cterm': 8 }
   let s:c.base2 = { 'gui': '#EAEBED', 'cterm': 10 }
   let s:c.base3 = { 'gui': '#FAFAFA', 'cterm': 12 }
   let s:c.base4 = { 'gui': '#313d46', 'cterm': 11 }
@@ -29,7 +29,7 @@ if s:ayucolor == 'light'
 else
   " Base colors.
   let s:c.base0 = { 'gui': '#151a1e', 'cterm': 0 }
-  let s:c.base1 = { 'gui': '#0f1419', 'cterm': 8 }
+  let s:c.base1 = { 'gui': 'none',    'cterm': 8 }
   let s:c.base2 = { 'gui': '#232b32', 'cterm': 10 }
   let s:c.base3 = { 'gui': '#0f1419', 'cterm': 12 }
   let s:c.base4 = { 'gui': '#313d46', 'cterm': 11 }
